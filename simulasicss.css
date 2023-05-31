@@ -19,7 +19,8 @@ p {
 
 img {
   display: block;
-  align-content: center;
+  margin: auto;
+  width: 250;
 }
 
 /* Attribute selector */

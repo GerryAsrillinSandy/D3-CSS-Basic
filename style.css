@@ -1,25 +1,32 @@
-/* Universal selector */
+/* Universal Selector */
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 5px;
+  padding: 2px;
   box-sizing: border-box;
 }
 
-/* Tag selector */
+/* Tag Selector */
 h1 {
   font-size: 36px;
+  text-align: left;
+  color: rgb(108, 108, 108);
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+a {
   text-align: center;
-  color: rgba(160, 160, 160, 0.865);
-}
-
-/* Class selector */
-.myClass {
-  font-style: italic;
-}
-
-/* ID selector */
-#myId {
-  background-color: yellow;
+  display: block;
+  font-size: 14px;
 }
 
 /* Attribute selector */
@@ -27,18 +34,57 @@ h1 {
   background-color: lightgrey;
 }
 
-/* Pseudo-class selector */
+/* pseudo-class selector */
 a:hover {
-  color: rgb(193, 193, 188);
+  color: grey;
 }
 
-/* Table */
+/* Table selector */
 table {
-  width: 60%;
+  margin: auto;
+  width: 30%;
   border-collapse: collapse;
 }
+
 td,
-th {
-  border: 1px solid black;
-  padding: 8px;
+th,
+tr {
+  text-align: center;
+  border: 1px solid rgb(203, 203, 203);
+  padding: 4px;
+}
+
+/*ID Selector*/
+#form1 {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* class selector */
+.data1 p {
+  text-align: center;
+}
+.data1 .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
+.data1 .row .test {
+  display: inline-block;
+  width: 22%;
+  background-color: blanchedalmond;
+}
+
+.data1 .row .test h2 {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+.data1 .row .test p {
+  color: rgb(117, 118, 118);
+  text-align: center;
+  font-size: 12px;
 }
