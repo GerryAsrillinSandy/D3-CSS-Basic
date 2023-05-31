@@ -1,0 +1,44 @@
+/* Universal selector */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+/* Tag selector */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: rgba(160, 160, 160, 0.865);
+}
+
+/* Class selector */
+.myClass {
+  font-style: italic;
+}
+
+/* ID selector */
+#myId {
+  background-color: yellow;
+}
+
+/* Attribute selector */
+[disabled] {
+  background-color: lightgrey;
+}
+
+/* Pseudo-class selector */
+a:hover {
+  color: rgb(193, 193, 188);
+}
+
+/* Table */
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+}
