@@ -42,53 +42,6 @@ a:hover {
   color: grey;
 }
 
-/* Table selector */
-.table {
-  margin: auto;
-  width: 90%;
-  border-collapse: collapse;
-}
-.table td {
-  border-color: rgb(188, 186, 186);
-  border-style: solid;
-  border-width: 1px;
-  font-size: 14px;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
-.table th {
-  border-color: rgb(188, 186, 186);
-  border-style: solid;
-  border-width: 1px;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
-.table .table-no {
-  font-weight: bold;
-  text-align: center;
-  vertical-align: top;
-}
-
-.table .table-ff {
-  font-weight: bold;
-  text-align: center;
-  vertical-align: top;
-}
-
-.table .table-number {
-  text-align: center;
-  vertical-align: top;
-}
-
-.table .table-content {
-  text-align: left;
-  vertical-align: top;
-}
-
 /*ID Selector*/
 #form1 {
   font-size: 14px;
@@ -220,8 +173,52 @@ a:hover {
   font-size: 30px;
 }
 
-.grid-container .item5 .table {
-  margin: auto;
+/* Table selector */
+.table {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.table th {
+  border-color: rgb(188, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  word-break: normal;
+  background-color: blanchedalmond;
+}
+
+.table td {
+  border-color: rgb(188, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.table .table-no {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.table .table-ff {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.table .table-number {
+  text-align: center;
+  vertical-align: top;
+}
+
+.table .table-content {
+  text-align: left;
+  vertical-align: top;
 }
