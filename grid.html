@@ -7,41 +7,45 @@
     <title>Document</title>
 
     <style>
+      .item1 {
+        grid-area: satu;
+      }
+      .item2 {
+        grid-area: dua;
+      }
+      .item3 {
+        grid-area: tiga;
+      }
+
       .container {
         display: grid;
-        grid: 80px / 50px 50px 50px;
-        grid-gap: 5px;
-        background-color: aqua;
-        padding: 2px;
+        grid-template-areas: "satu dua tiga";
+        grid-gap: 10px;
+        background-color: lightblue;
+        padding: 10px;
       }
-
       .container > div {
-        background-color: rgb(128, 134, 134);
+        background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
         padding: 20px;
-        font-size: 10px;
-        color: white;
+        font-size: 30px;
       }
 
-      @media (max-width: 700px) {
+      @media (max-width: 600px) {
         .container {
-          grid: 40px / 25px 25px 25px;
-        }
-
-        .container > div {
-          margin-right: 10px;
-          margin-bottom: 10px;
-          padding: 10px;
-          font-size: 8px;
+          grid-template-areas:
+            "satu"
+            "dua"
+            "tiga";
         }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="item1">Item 1</div>
-      <div class="item2">Item 2</div>
-      <div class="item3">Item 3</div>
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
     </div>
   </body>
 </html>
