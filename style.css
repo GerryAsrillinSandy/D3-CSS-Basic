@@ -61,23 +61,52 @@ a:hover {
 }
 
 /* Table selector */
-table {
+.table {
   margin: auto;
-  width: 30%;
+  margin-bottom: 12%;
+  width: 85%;
   border-collapse: collapse;
-  margin-bottom: 15%;
 }
-
-td {
-  text-align: left;
-  border: 1px solid rgb(47, 47, 47);
-  padding: 4px;
+.table td {
+  border-color: rgb(188, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
 }
-
-tr {
+.table th {
+  border-color: rgb(188, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.table .table-no {
+  width: 40px;
+  font-weight: bold;
   text-align: center;
-  border: 1px solid rgb(47, 47, 47);
-  padding: 4px;
+  vertical-align: top;
+}
+
+.table .table-ff {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.table .table-number {
+  text-align: center;
+  vertical-align: top;
+}
+
+.table .table-content {
+  text-align: left;
+  vertical-align: top;
 }
 
 /*ID Selector*/
