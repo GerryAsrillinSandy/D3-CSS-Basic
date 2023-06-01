@@ -12,12 +12,12 @@ body {
 h1 {
   font-size: 36px;
   text-align: left;
-  color: rgb(108, 108, 108);
 }
 
 p {
   font-size: 20px;
   text-align: justify;
+  color: #ffffff;
 }
 
 img {
@@ -70,7 +70,7 @@ a:hover {
   display: grid;
   grid-template-areas:
     "header header header header header right"
-    "menu menu main main main right"
+    "menu menu menu main main right"
     "footer footer footer footer footer right";
   gap: 3px;
   background-color: #f0f0f0;
@@ -81,7 +81,7 @@ a:hover {
   display: flex;
   align-items: center;
   font-size: 36px;
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: #2596be;
   padding: 5px;
   font-size: 30px;
 }
@@ -89,25 +89,21 @@ a:hover {
 .grid-container .item1 h1 {
   margin: 5px;
   padding: 3px;
-  color: rgb(108, 108, 108);
+  color: #fbdec1;
 }
 
 .grid-container .item2 {
   display: flex;
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: #be4b25;
   align-items: center;
   justify-content: center;
   padding: 5px;
   font-size: 30px;
 }
 
-.grid-container .item2 p {
-  color: rgb(108, 108, 108);
-}
-
 .grid-container .item3 {
   display: flex;
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: #96be25;
   align-items: center;
   justify-content: center;
   padding: 5px;
@@ -123,20 +119,21 @@ a:hover {
 .grid-container .item3 .flex-container .row .test {
   align-items: center;
   justify-content: center;
-  background-color: blanchedalmond;
+  border: solid #f0f0f0;
+  border-width: 1px;
   margin: 5px;
   width: 150%;
 }
 
 .grid-container .item3 .flex-container .row .test h2 {
   display: block;
-  color: black;
+  color: #354242;
   text-align: center;
   font-size: 16px;
 }
 
 .grid-container .item3 .flex-container .row .test p {
-  color: rgb(117, 118, 118);
+  color: #2596be;
   text-align: center;
   font-size: 12px;
 }
@@ -146,7 +143,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: #f4ac64;
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -167,7 +164,7 @@ a:hover {
 }
 
 .grid-container .item5 {
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: #be255b;
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -181,44 +178,40 @@ a:hover {
 }
 
 .table th {
-  border-color: rgb(188, 186, 186);
   border-style: solid;
+  border-color: #f0f0f0;
   border-width: 1px;
   font-size: 14px;
   font-weight: normal;
   padding: 10px 5px;
-  word-break: normal;
-  background-color: blanchedalmond;
 }
 
 .table td {
-  border-color: rgb(188, 186, 186);
   border-style: solid;
+  border-color: #f0f0f0;
   border-width: 1px;
   font-size: 12px;
-  overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
 }
 
 .table .table-no {
+  color: #a7be25;
   font-weight: bold;
   text-align: center;
-  vertical-align: top;
 }
 
 .table .table-ff {
+  color: #a7be25;
   font-weight: bold;
   text-align: center;
-  vertical-align: top;
 }
 
 .table .table-number {
+  color: #a7be25;
   text-align: center;
-  vertical-align: top;
 }
 
 .table .table-content {
+  color: #a7be25;
   text-align: left;
-  vertical-align: top;
 }
