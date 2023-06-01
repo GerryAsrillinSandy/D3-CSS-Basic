@@ -64,12 +64,14 @@ tr {
 .data1 p {
   text-align: center;
 }
+
 .data1 .row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
   justify-content: center;
 }
+
 .data1 .row .test {
   display: inline-block;
   width: 22%;
