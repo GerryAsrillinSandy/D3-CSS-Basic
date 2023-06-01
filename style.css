@@ -18,8 +18,8 @@ body {
   box-sizing: border-box;
   background: linear-gradient(
     0deg,
-    rgba(151, 147, 147, 0.325) 10%,
-    rgb(181, 181, 181) 80%
+    rgba(129, 127, 127, 0.681) 10%,
+    rgb(221, 221, 221) 80%
   );
   height: auto;
 }
@@ -33,14 +33,10 @@ h1 {
   padding: 5px;
 }
 
-p {
-  font-size: 20px;
-  text-align: justify;
-}
-
 img {
   display: block;
   margin: auto;
+  margin-bottom: 5px;
   width: 300px;
 }
 
@@ -48,6 +44,7 @@ a {
   text-align: center;
   display: block;
   font-size: 14px;
+  margin-bottom: 25px;
 }
 
 /* Attribute selector */
@@ -63,29 +60,32 @@ a:hover {
 /* Table selector */
 .table {
   margin: auto;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
   width: 85%;
   border-collapse: collapse;
 }
+
+.table tr,
+th {
+  border-color: rgba(130, 130, 130, 0.895);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
 .table td {
-  border-color: rgb(188, 186, 186);
+  border-color: rgba(130, 130, 130, 0.895);
   border-style: solid;
   border-width: 1px;
-  font-size: 14px;
+  font-size: 12px;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
 }
-.table th {
-  border-color: rgb(188, 186, 186);
-  border-style: solid;
-  border-width: 1px;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
+
 .table .table-no {
   width: 40px;
   font-weight: bold;
@@ -117,10 +117,25 @@ a:hover {
 
 /* class selector */
 
-.data1 p {
-  text-align: center;
+.paragraph {
+  margin: auto;
+  justify-content: center;
+  border: dashed rgba(108, 108, 108, 0.323);
+  border-width: 1px;
+  background-color: rgba(245, 245, 220, 0.277);
+  width: 90%;
 }
 
+.paragraph p {
+  color: rgb(108, 108, 108);
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.data1 {
+  margin-bottom: 15px;
+}
 .data1 .row {
   display: flex;
   flex-wrap: wrap;
@@ -130,10 +145,10 @@ a:hover {
 
 .data1 .row .test {
   display: inline-block;
-  width: 22%;
+  width: 21.5%;
   background-color: rgb(255, 239, 215);
   padding: 2px;
-  margin: 2px;
+  margin: 5px;
 }
 
 .data1 .row .test h2 {
